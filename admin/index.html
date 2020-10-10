@@ -1,0 +1,35 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<link rel="icon" type="image/png" sizes="96x96" href="imagens\favicon-96x96.png">
+			<title>Você Gourmet!</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
+		<link rel="stylesheet" type="text/css" href="../css/style-admin.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+	</head>
+
+	<body>
+
+		<center>
+			<img class="logo" src="../imagens/logo-branco.png">
+		</center>
+		
+		<div class="login">
+			<h1>Login</h1>
+			<form action="autenticar.php" method="post">
+				<label for="username">
+					<i class="fas fa-user"></i>
+				</label>
+				<input type="text" name="usuario" placeholder="Usuário" id="username" required>
+				<label for="password">
+					<i class="fas fa-lock"></i>
+				</label>
+				<input type="password" name="senha" placeholder="Senha" id="password" required>
+				<input type="submit" value="Login">
+			</form>
+		</div>
+
+	</body>
+</html>
