@@ -1,18 +1,20 @@
 <h2 align="center">
   <img src="https://img.shields.io/badge/web-ok-success?style=flat-square" alt="Sistema web Ok" />
-  <img src="https://img.shields.io/badge/server-ok-success?style=flat-square" alt="Server OK" />
-  <img src="https://img.shields.io/badge/app mobile-building-orange?style=flat-square" alt="Aplicativo mobile Building" />
   <img src="https://img.shields.io/badge/license-MIT-00b8d3?style=flat-square" alt="License" />
 </h2>
 
 <h1 align="center">
-  <img src=".github/happy_logo_2.0_background.png" alt="Happy" alt="Logo da Happy" width="1000px"/>
+  <img src=".github/logo-branca-fundo.png" alt="Happy" alt="Logo da Você Gourmet!" width="1000px"/>
 </h1>
 
 ## 🔎 Sobre o projeto
-<p>Happy é uma plataforma para orfanatos, ligando quem quer ajudar aqueles que presisam ser ajudados.</p>
+<p>A Você Gourmet! é um serviço que ira fazer com que você se sinta um verdadeiro chef! </p>
 
-<p>Parte desse projeto foi desenvolvido na Next Level Week 3.</p>
+<p>A Você Gourmet! é uma empresa que presta serviços dedicados ao bem estar das pessoas, buscando levar praticidade, lazer, e uma experiencia gastronômica única. </p>
+
+<p>Ao assinar o serviço serão entregues caixas (inspiradas no sistema de Loot Box) com ingredientes selecionados e com as medidas exatas para a realização de uma receita.   gourmet! </p>
+
+**Esse projeto foi desenvolvido como TCC da Fatec de Mauá da turma de 2018 **
 
 ### Features
 
