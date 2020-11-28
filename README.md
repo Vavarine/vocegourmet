@@ -63,12 +63,6 @@ back-end
   <img src=".github/listagem-dicas.png" alt="User page" width="700px"/>
 </p>
 
-<p>&nbsp;</p>
-
-<p align="center"><b>Pagina do Administrador</b></p>
-<p align="center">
-  <img src=".github/area-usuario-admin-aceitar-cadastro.jpg" alt="User page" width="700px"/>
-</p>
 
 <p>&nbsp;</p>
 
@@ -87,34 +81,33 @@ back-end
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 
+## Instalação e start
+Esse é uma aplicação de **arquitetura monolítica**, ou seja, ambas a interface de usuário e códigos de acesso a dados estão nessa mesma peça de software. Essa escolha arquitetural faz com que a clonagem desse repositório seja a única de que precisa fazer para poder dar start a aplicação. 
+
 ### Pré-requisitos
-A maneira mais simples de rodar esse projeto:
-[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/)
+A maneira mais simples de rodar esse projeto é com softwares que auxiliam no setup de desenvolvimento de aplicações escritas em PHP, tais como [XAMPP](https://www.apachefriends.org/pt_br/index.html) ou [WampServer](https://www.wampserver.com/en/). Ambos instalam uma distribuição Apache, contendo MySQL e PHP.
 
 ### Clonando o repositório
+Para rodar a aplicação com XAMPP a clonagem do repositório deve ser feita em `... \xampp\htdocs`.
+Para rodar a aplicação com WampServer a clonagem do repositório deve ser feita `... \wamp64\www`.
 
 ```bash
 > git clone https://github.com/Vavarine/happy
-> cd happy
 ```
 
-### Rodando o Back End (servidor)
+### Setup do banco de dados
+Com o servidor MySql rodando é necessário rodar o script do banco de dados da apicação. 
+Pelo phpMyAdmin basta a clicar na opção de importação de script e importar o arquivo `banco/script.sql`.
+Se feito por **MySQL Console**:
 
 ```bash
-> cd backend
-> yarn install
-> yarn start
+mysql> source ... /banco/script.sql
 ```
 
-O servidor iniciará na porta:3333 - acesse <http://localhost:3333> 
 
-### Rodando o Front End (web)
 
-```bash
-> cd backend
-> yarn install
-> yarn start
-```
+### Rodando a aplicação
+Depois da inicialização dos servidores Apache e MySQL
 
 O front-end web iniciara na porta:3000 - acesse <http://localhost:3000> 
 
