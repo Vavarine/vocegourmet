@@ -4,38 +4,27 @@
 </h2>
 
 <h1 align="center">
-  <img src=".github/logo-branca-fundo.png" alt="Happy" alt="Logo da Você Gourmet!" width="1000px"/>
+  <img src=".github/logo-branca-fundo.svg" alt="Happy" alt="Logo da Você Gourmet!" width="1000px"/>
 </h1>
 
 ## 🔎 Sobre o projeto
-<p>A Você Gourmet! é um serviço que ira fazer com que você se sinta um verdadeiro chef! </p>
+<p>A Você Gourmet! que é uma empresa que presta serviços de assinatura em que são entregues caixas (inspiradas no sistema de Loot Box) com ingredientes selecionados e com as medidas exatas para a realização de uma receita. </p>
 
-<p>A Você Gourmet! é uma empresa que presta serviços dedicados ao bem estar das pessoas, buscando levar praticidade, lazer, e uma experiencia gastronômica única. </p>
+<p>Além do serviço de assinatura a Você Gourmet! é um site de culinária completo, com seleções de receitas e dicas.</p>
 
-<p>Ao assinar o serviço serão entregues caixas (inspiradas no sistema de Loot Box) com ingredientes selecionados e com as medidas exatas para a realização de uma receita.   gourmet! </p>
-
-**Esse projeto foi desenvolvido como TCC da Fatec de Mauá da turma de 2018 **
+**Esse projeto foi desenvolvido como TCC da Etec de Mauá da turma de Análise e Desenvolvimento de Sistemas de 2018**
 
 ### Features
 
-- [x] Cadastro de orfanatos
-- [x] Listagem de orfanatos em mapa
-- [x] Cadastro de usuários
-- [x] Login de usuários
-- [x] Retrição de áreas à usuários não autenticados ultilizando token de autenticação
-- [x] Recuperação de senhas via email
-- [x] Dash board de usuário
-- [x] Dash board de administrador
-- [x] Verificação de permissoes de administrador ao fazer requisições
-- [x] Exclusão de orfanatos
-- [x] Edição de orfanatos
-- [x] Verificação de permissões do usuário para com orfanato
-- [x] Orfanatos cadastrados tem que pssar por validação de administrador
-- [ ] Cadastro e contado por whatsapp
+- [x] Pagina de administração
+- [x] Sistema de autenticação e encriptação de senhas
+- [x] Retrição de áreas reservadas à administradores
+- [x] Página de cdastro de receitas e dicas por administradores
+- [x] Listagem de receitas e dicas
+- [x] Sistema de busca de receitas e dicas
+- [x] Página de apresentação das caixas gourmet
 
 <p>&nbsp;</p>
-
-## 🖥 Layout
 
 O layout completo do projeto pode ser visto na ferramenta de design de interface **Figma**
 - [Layout web](https://www.figma.com/file/Y7sHzKwqD7JUpYjhyS8lDm/Happy-Web-2.0)
@@ -48,48 +37,30 @@ O layout completo do projeto pode ser visto na ferramenta de design de interface
 
 <p>&nbsp;</p>
 
-- **back-end**
-  - [nodeJs](https://nodejs.org/en/) é um ambiente de execução Javascript server-side, usado para a construção do código
-  - [@sendgrid/mail](https://sendgrid.com/docs/for-developers/sending-email/quickstart-nodejs/) é a api do serviço SendGrid, usado para a entrega de emails transacionais de troca de senha de contas
-  - [bcrypt](https://www.npmjs.com/package/bcrypt) é uma biblioteca pra ajudar a fazer o hash de senhas, usado para sua encriptação
-  - [cors](https://www.npmjs.com/package/cors) é um middleware para o express, usado para a limitação do acesso a API do back-end
-  - [express](https://expressjs.com/pt-br/) é uma framework para aplicativos web js, varios de seus recursos foram usados
-  - [jade](https://www.npmjs.com/package/jade) é uma engine de tamplate HTML, usado na conversão de arquivos html em strings para utilização nos e-mails enviados
-  - [jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken) é uma implementação dos JSON Web Tokens, usado para a geração de tokens de acesso, ajudando nos sistemas de login da aplicação
-  - [multer](https://www.npmjs.com/package/multer) é um middleware para lidar com multipart/form-data, usado para o upload de arquivos no servidor
-  - [typeorm](https://typeorm.io/#/) é uma Object Relational Mapper, usado na integração com o banco de dados, relacionando os dados aos objetos que os representam 
-  - [yup](https://www.npmjs.com/package/yup) é um contrutor e validador de esquemas de objetos, usado na validação das requisições ao servidor 
- 
+back-end
+- [PHP](https://www.php.net/manual/pt_BR/intro-whatis.php)
+- [HTML]
+- [CSS]
+- [JavaScript](https://www.javascript.com/)
+- [MySql](https://www.mysql.com/)
+
  <p>&nbsp;</p>
- 
-- **Front-end Web**
-  - [react](https://reactjs.org/) é uma biblioteca de criação de interfaces, usado na criação de todas as interfaçes da aplicação 
-  - [axios](https://www.npmjs.com/package/axios) é um cliente HTTP baseado em promisses, usado na conexão 
-  - [email-validator](https://www.npmjs.com/package/email-validator) é um módulo simples de validação de e-mails
-  - [leaflet](https://leafletjs.com/) é uma biblioteca de mapas interativos, usado para a criação dos mapas interativos da aplicação
-  - [redux](https://redux.js.org/introduction/getting-started) é uma biblioteca de gerenciamento de estados da aplicação, usado para auxiliar o sistema de login e de áreas restritas
-  
-  <p>&nbsp;</p>
-  
-- **Front-end Mobile**
-  - [react-native](https://reactnative.dev/) é uma framework para desenvolvimento mobile
-  - [expo](https://expo.io/) é uma plataforma que auxilia o desenvolvimento com react-native
   
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 
 ## 🚀 Demonstração
 
-<p align="center"><b>Fluxo de cadastro de orfanatos</b></p>
+<p align="center"><b>Home</b></p>
 <p align="center">
-  <img src=".github/fluxo-cadastro.gif" alt="Map page" width="700px"/>
+  <img src=".github/home_page.jpg" alt="Map page" width="700px"/>
 </p>
 
 <p>&nbsp;</p>
 
-<p align="center"><b>Pagina do usuário pré validação por Administrador</b></p>
+<p align="center"><b>Listagem de Dicas</b></p>
 <p align="center">
-  <img src=".github/area-usuario.jpg" alt="User page" width="700px"/>
+  <img src=".github/listagem-dicas.png" alt="User page" width="700px"/>
 </p>
 
 <p>&nbsp;</p>
@@ -101,33 +72,23 @@ O layout completo do projeto pode ser visto na ferramenta de design de interface
 
 <p>&nbsp;</p>
 
-<p align="center"><b>Pagina do validação de orfanato</b></p>
+<p align="center"><b>Pagina de administração</b></p>
 <p align="center">
-  <img src=".github/area-usuario-admin.jpg" alt="User page" width="700px"/>
+  <img src=".github/admin-home.png" alt="User page" width="700px"/>
 </p>
 
 <p>&nbsp;</p>
 
-<p align="center"><b>Pagina de listagem de orfanatos</b></p>
+<p align="center"><b>Pagina de administração de receitas</b></p>
 <p align="center">
-  <img src=".github/area-usuario-admin.jpg" alt="User page" width="700px"/>
-</p>
-
-<p>&nbsp;</p>
-
-<p align="center"><b>Pagina do orfanato</b></p>
-<p align="center">
-  <img src=".github/orfanato-cadastrado.png" alt="User page" width="700px"/>
+  <img src=".github/admin-receitas.png" alt="User page" width="700px"/>
 </p>
 
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-
-## Instalação e Start
-Esse é um monorepo, todo o código fonte desse projeto esta nesse repositório. É necessário entrar nas pastas fontes do projeto **web**, **server** e **mobile** e instalar suas dependências individualmente. Os exemplos dos códigos abaixo são usando o gerenciador de pacotes **Yarn**, se não quiser apenas troque os comandos **yarn** por **npm** 
 
 ### Pré-requisitos
-Para que se possa rodar o projeto as seguintes ferramentas são nessesarias:
+A maneira mais simples de rodar esse projeto:
 [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/)
 
 ### Clonando o repositório
