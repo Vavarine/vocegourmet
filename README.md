@@ -43,7 +43,7 @@ O layout completo do projeto pode ser visto na ferramenta de design de interface
 
 ## 🚀 Demonstração
 
-< align="center"><b>Home</b></>
+<p align="center"><b>Home</b></p>
 <p align="center">
   <img src=".github/home_page.jpg" alt="Map page" width="700px"/>
 </p>
