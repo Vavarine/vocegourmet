@@ -33,11 +33,6 @@ O layout completo do projeto pode ser visto na ferramenta de design de interface
 <p>&nbsp;</p>
 
 ## 🛠 Tecnologias e sua aplicação no projeto
-- [typeScript](https://www.typescriptlang.org/) é um super conjunto que extende a linguagem JavaScript adicionando tipagem
-
-<p>&nbsp;</p>
-
-back-end
 - [PHP](https://www.php.net/manual/pt_BR/intro-whatis.php)
 - HTML
 - CSS
