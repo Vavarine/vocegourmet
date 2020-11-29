@@ -45,11 +45,10 @@ back-end
 - [MySql](https://www.mysql.com/)
   
 <p>&nbsp;</p>
-<p>&nbsp;</p>
 
 ## 🚀 Demonstração
 
-<p align="center"><b>Home</b></p>
+< align="center"><b>Home</b></>
 <p align="center">
   <img src=".github/home_page.jpg" alt="Map page" width="700px"/>
 </p>
@@ -60,7 +59,6 @@ back-end
 <p align="center">
   <img src=".github/listagem-dicas.png" alt="User page" width="700px"/>
 </p>
-
 
 <p>&nbsp;</p>
 
