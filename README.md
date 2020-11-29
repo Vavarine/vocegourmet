@@ -39,12 +39,10 @@ O layout completo do projeto pode ser visto na ferramenta de design de interface
 
 back-end
 - [PHP](https://www.php.net/manual/pt_BR/intro-whatis.php)
-- [HTML]
-- [CSS]
+- HTML
+- CSS
 - [JavaScript](https://www.javascript.com/)
 - [MySql](https://www.mysql.com/)
-
- <p>&nbsp;</p>
   
 <p>&nbsp;</p>
 <p>&nbsp;</p>
@@ -104,12 +102,12 @@ Se feito por **MySQL Console**:
 mysql> source ... /banco/script.sql
 ```
 
-
+Pode ser que seja necessária extra configuração em relação a authenticação no banco de dados. Para mudanças na conexão da aplicação com o banco modifique o valor das variáveis em `conexao.php`
 
 ### Rodando a aplicação
-Depois da inicialização dos servidores Apache e MySQL
+Depois da inicialização dos servidores Apache e MySQL:
 
-O front-end web iniciara na porta:3000 - acesse <http://localhost:3000> 
+O aplicação estara rodando na porta:8080 - acesse <http://localhost:8080/vocegourmet> 
 
 <p>&nbsp;</p>
 
